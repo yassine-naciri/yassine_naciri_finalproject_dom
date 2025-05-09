@@ -2,7 +2,7 @@ let btn = document.getElementById("booking_btn")
 
 
 
-
+alert("Final Project is Not completed\nStarted at 9:30am ends at 5pm")
 
 btn.addEventListener("click",function(){
     console.log(btn)

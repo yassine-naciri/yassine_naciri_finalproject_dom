@@ -441,4 +441,10 @@ header ul .btn {
   border: 3px solid #cda45e;
 }
 
+header ul .btn:hover {
+  color: white;
+  background: #cda45e;
+  transition: 1s;
+}
+
 /*# sourceMappingURL=app.css.map */
