@@ -466,3 +466,36 @@ body{
     padding: 0.5rem;
     color: #cda45e;
 }
+
+
+
+
+footer{
+    padding: 3rem;
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: center;
+    height: 60vh;
+    width: 100vw;
+    align-items: center;
+    background: #0c0b09;
+
+}
+
+
+footer .v1{
+    display: flex;
+    color: white;
+
+}
+
+
+
+
+
+footer .last{
+    position: relative;
+    bottom: 5rem;
+    right: 3rem;
+}
