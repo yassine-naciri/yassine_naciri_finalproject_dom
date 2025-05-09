@@ -60,6 +60,13 @@ body {
   padding: 6rem;
 }
 
+.first_part .v2 svg {
+  background: #cda45e;
+  color: #cda45e;
+  border: 2px solid #cda45e;
+  border-radius: 50%;
+}
+
 .second_part {
   height: 100vh;
   width: 100vw;
@@ -293,6 +300,7 @@ body {
 }
 
 .booking {
+  padding: 2rem;
   background: #0c0b09;
   height: 80vh;
   width: 100vw;
@@ -301,8 +309,13 @@ body {
   gap: 3rem;
 }
 
+.booking .top {
+  padding-left: 3rem;
+  color: #cda45e;
+}
+
 .booking .bottom {
-  padding-left: 5rem;
+  padding-left: 13rem;
   display: flex;
   flex-direction: column;
   gap: 2rem;
@@ -321,12 +334,53 @@ body {
   height: 5vh;
 }
 
+.booking .bottom .bottom_inputs form {
+  display: flex;
+  flex-direction: column;
+}
+
 .booking .bottom .bottom_inputs textarea {
   padding: 0.4rem;
   background: #0c0b09;
   color: white;
   width: 66vw;
   height: 20vh;
+}
+
+.booking .bottom_inputs form button {
+  position: relative;
+  top: 2rem;
+  left: 26rem;
+  background: transparent;
+  color: white;
+  border-radius: 10px;
+  border: 2px solid #cda45e;
+  height: 5vh;
+  width: 8vw;
+}
+
+.photos {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  background: #0c0b09;
+  height: 50vh;
+  width: 100vw;
+}
+
+.photos .pics img {
+  width: 24vw;
+  height: 24vh;
+}
+
+.photos .pics img:hover {
+  width: 26vw;
+  height: 26vh;
+}
+
+.photos .info {
+  padding: 0.5rem;
+  color: #cda45e;
 }
 
 header {
