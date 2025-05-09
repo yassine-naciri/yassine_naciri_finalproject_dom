@@ -6,6 +6,7 @@
 }
 
 body {
+  overflow-x: hidden;
   color: white;
 }
 
@@ -258,7 +259,7 @@ body {
   background: transparent;
   color: white;
   position: relative;
-  left: 20rem;
+  left: 25rem;
   width: 12vw;
   height: 6vh;
   border-radius: 10px;
@@ -350,7 +351,7 @@ body {
 .booking .bottom_inputs form button {
   position: relative;
   top: 2rem;
-  left: 26rem;
+  left: 30rem;
   background: transparent;
   color: white;
   border-radius: 10px;
@@ -374,6 +375,7 @@ body {
 }
 
 .photos .pics img:hover {
+  transition: 1.2s;
   width: 26vw;
   height: 26vh;
 }
