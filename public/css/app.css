@@ -72,8 +72,15 @@ body {
 }
 
 .second_part .right img {
-  width: 30vw;
-  height: 50vh;
+  width: 35vw;
+  border: 5px solid #282726;
+  height: 55vh;
+}
+
+.second_part .right img:hover {
+  transition: 0.4s;
+  width: 38vw;
+  height: 58vh;
 }
 
 .info {
@@ -166,6 +173,160 @@ body {
   display: flex;
   justify-content: center;
   gap: 1rem;
+}
+
+.v4 .pics {
+  padding: 5rem;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.v4 .pics .pic > img {
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  border: 8px solid #282726;
+}
+
+.contacts {
+  background: #181715;
+  height: 190vh;
+  width: 100vw;
+}
+
+.contacts .contacts_title {
+  padding: 5rem;
+  color: #cda45e;
+}
+
+.contacts_form {
+  padding: 3rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.contacts_form .top {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.contacts_form svg {
+  background: #cda45e;
+  width: 3vw;
+  height: 6vh;
+}
+
+.contacts_form .left {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.contacts_form .left .top_inputs form {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.contacts_form .left .bottom_inputs form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.contacts_form .left .top_inputs form input {
+  width: 25vw;
+  height: 5vh;
+}
+
+.contacts_form .left .bottom_inputs form input {
+  width: 25vw;
+  height: 5vh;
+}
+
+.contacts_form .left .bottom_inputs form button {
+  background: transparent;
+  color: white;
+  position: relative;
+  left: 20rem;
+  width: 12vw;
+  height: 6vh;
+  border-radius: 10px;
+}
+
+.contacts_form .left .bottom_inputs form button:hover {
+  background: #cda45e;
+  transition: 1s;
+  border-radius: 10px;
+}
+
+.contacts_form .left form input {
+  padding: 0.4rem 0.7rem;
+  border: 1px solid #4f422b;
+  font-size: large;
+  background: #282726;
+  color: #cda45e;
+  outline: none;
+}
+
+.contacts_form .left form input:focus {
+  border: 1px solid #cda45e;
+  color: white;
+}
+
+.contacts_form .left form textarea {
+  padding: 0.4rem 0.7rem;
+  border: 1px solid #4f422b;
+  font-size: x-large;
+  background: #282726;
+  color: #cda45e;
+  height: 30vh;
+  outline: none;
+}
+
+.contacts_form .left form textarea:focus {
+  border: 1px solid #cda45e;
+  color: white;
+}
+
+.booking {
+  background: #0c0b09;
+  height: 80vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.booking .bottom {
+  padding-left: 5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.booking .bottom .top_inputs form {
+  display: flex;
+  gap: 2rem;
+}
+
+.booking .bottom .top_inputs input {
+  padding: 0.4rem;
+  color: white;
+  background: #0c0b09;
+  width: 20vw;
+  height: 5vh;
+}
+
+.booking .bottom .bottom_inputs textarea {
+  padding: 0.4rem;
+  background: #0c0b09;
+  color: white;
+  width: 66vw;
+  height: 20vh;
 }
 
 header {
