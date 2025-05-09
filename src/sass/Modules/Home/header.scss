@@ -1,0 +1,44 @@
+
+
+header{
+
+
+    height: 10vh;
+    width: 100vw;
+    align-items: center;
+    display: flex;
+    position:fixed;
+    background:rgba(0, 0, 0, 0.534);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    gap: 2rem;
+    justify-content: center;
+
+}
+
+
+
+header ul{
+    
+
+    align-items: center;
+
+    display: flex;
+    gap: 2rem;
+}
+
+header ul a:hover{
+    color: #cda45e;
+}
+
+header ul a{
+    color: white;
+}
+
+
+header ul .btn{
+    padding: 0.6rem 2rem;
+    border-radius: 15px;
+    border: 3px solid #cda45e;
+}
+
